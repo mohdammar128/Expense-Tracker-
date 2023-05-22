@@ -1,0 +1,32 @@
+.expense-item-container{
+    
+    margin: 50px;
+    background-color:rgba(0, 0, 0, 0.66);
+    border-radius: 20px;
+    padding: 100px;
+
+  
+}
+
+.expense-item-container >*{
+    text-align: center;
+}
+
+.pop-up-message{
+    background: #000000b2;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+   
+}
+
+ 

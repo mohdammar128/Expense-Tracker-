@@ -1,0 +1,48 @@
+.new-expense_controls{
+    font-family: sans-serif;
+    background-color:#B9F3FC ;
+    border-radius: 5px;
+    padding: 100px;
+    margin: 50px 50px 0px 50px;
+    display:   grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+
+    
+}
+
+.new-expense_controls input{
+padding: 7px;
+border-radius: 4px;
+margin-top: 4px;
+}
+
+/* .new-expense_actions{
+    background-color:#B9F3FC ;
+     margin:0px 50px 0px 50px;
+     border-radius: 20px;
+} */
+
+
+.new-expense_actions button{
+    padding: 10px;
+    border-radius: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 300px;
+    right: 100px;
+    background-color: black;
+    color: white;
+}
+
+.new-expense_actions button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+   
+}
+
+
+
